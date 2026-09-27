@@ -1,0 +1,58 @@
+{
+  "profile": {
+    "name": "Souvik Roy",
+    "brand": "SOUVIK",
+    "brandSuffix": ".DEV",
+    "role": "Robotics Engineer @ EVO",
+    "headline": "Powering Robots",
+    "headlineAccent": "For Real Work",
+    "intro": "Building robot perception, control, and learning systems. From vision-guided manipulation to sim-to-real transfer for quadruped and humanoid robots.",
+    "location": "Viseu, Portugal",
+    "email": "sroyy57@gmail.com",
+    "github": "https://github.com/Royy57",
+    "linkedin": "https://www.linkedin.com/in/souvik-roy57/",
+    "resume": "",
+    "portrait": "",
+    "footer": "Robotics engineer working at the intersection of perception, control, and AI.",
+    "about": [
+      "I’m a Robotics Engineer at EVO in Viseu, Portugal, building perception, control, and reinforcement and imitation learning systems for quadruped and humanoid robots, with a focus on sim-to-real transfer.",
+      "I hold a master’s degree in Advanced Robotics from École Centrale de Nantes. Previously, I developed a vision-based positioning system for remote-handling robots at ITER, and led technical vision and R&D at ME3D.",
+      "My interests span motion planning and control, computer vision, and reinforcement learning. I enjoy solving engineering problems that connect robotics research with real-world deployment."
+    ]
+  },
+  "pages": {
+    "expertiseTitle": "Technical Expertise",
+    "featuredTitle": "Featured Projects",
+    "quickLinksTitle": "Quick Links",
+    "aboutTitle": "About Me",
+    "aboutIntro": "Perception, control, and learning. From research to robots in the real world.",
+    "projectsTitle": "Projects",
+    "projectsIntro": "Selected work in robotic perception, autonomous navigation, and vision systems.",
+    "contactTitle": "Let’s Connect",
+    "contactIntro": "Have a robotics project in mind, a research question, or an idea to exchange? I’d love to hear from you."
+  },
+  "technologies": ["ROS 2", "Python", "C++", "OpenCV", "PyTorch", "Gazebo", "Docker", "Linux"],
+  "expertise": [
+    {"title": "Robotics & Control", "items": ["ROS 2", "Motion Planning", "Visual Servoing", "Kinematics & Dynamics", "Gazebo", "Isaac Sim"]},
+    {"title": "AI & Computer Vision", "items": ["PyTorch", "Object Detection", "6DoF Pose Estimation", "Reinforcement Learning", "Imitation Learning", "OpenCV"]},
+    {"title": "Perception Systems", "items": ["SLAM", "Stereo Vision", "3D Reconstruction", "Sensor Fusion", "Hand–Eye Calibration", "LiDAR"]},
+    {"title": "Software & Deployment", "items": ["Python", "C++", "Linux", "Docker", "AWS", "Git"]}
+  ],
+  "experience": [
+    {"role": "Robotics Engineer", "organization": "EVO", "period": "May 2026 — Present", "location": "Viseu, Portugal", "description": "Building robot perception, control, and reinforcement and imitation learning systems, with a focus on sim-to-real transfer for quadruped and humanoid robots."},
+    {"role": "Co-Founder & CTO", "organization": "ME3D", "period": "Oct 2025 — Mar 2026", "location": "Boulogne-Billancourt, France", "description": "Led the technical vision and R&D for a deep-tech platform applying AI-driven spatial intelligence to fashion e-commerce."},
+    {"role": "Robot Vision Engineer", "organization": "ITER Organization", "period": "Feb 2025 — Aug 2025", "location": "Saint-Paul-lez-Durance, France", "description": "Developed a high-precision vision-based positioning system for remote-handling robots. Worked on fiducial detection, 6DoF pose estimation, stereo and hand–eye calibration, and vision-to-robot integration."},
+    {"role": "Robotics Project Associate", "organization": "LS2N", "period": "Dec 2023 — May 2024", "location": "Nantes, France", "description": "Developed a Python application for inertial parameter identification on a Franka Emika robot using recursive Newton–Euler dynamics, least-squares optimization, and SVD."},
+    {"role": "AI Analyst", "organization": "The Smart Cube", "period": "Jul 2022 — Dec 2022", "location": "Noida, India", "description": "Built statistical and predictive models and automated data preparation workflows using Python and SQL."}
+  ],
+  "education": [
+    {"degree": "MSc, Advanced Robotics", "institution": "École Centrale de Nantes", "period": "2023 — 2025", "description": "Robot programming, computer vision, artificial intelligence, optimization, kinematics and dynamics, and mobile robotics."},
+    {"degree": "BE, Power Engineering", "institution": "Jadavpur University", "period": "2018 — 2022", "description": "Control systems, signal processing, power electronics, neural networks, and digital and analog electronics."}
+  ],
+  "projects": [
+    {"id": "mobile-robot-control", "title": "Perception-Driven Mobile Robot Control", "category": "Autonomous Navigation", "summary": "A ROS 2 control architecture combining camera and LiDAR perception for waypoint navigation and obstacle avoidance in Gazebo.", "tags": ["ROS 2", "Nav2", "Gazebo", "Sensor Fusion", "Docker"], "featured": true, "image": "", "imageAlt": "", "repository": "", "demo": "", "overview": "Designed and implemented a ROS 2-based control architecture integrating camera and LiDAR perception in Gazebo Fortress simulation environments.", "contributions": ["Integrated perception with closed-loop control for waypoint navigation and dynamic obstacle avoidance.", "Used ROS 2 Navigation2 for mission planning and execution.", "Packaged the system in Docker for reproducibility."], "results": ""},
+    {"id": "multi-view-reconstruction", "title": "Multi-View 3D Reconstruction & Detection", "category": "Computer Vision", "summary": "A hybrid vision pipeline combining multi-view reconstruction, object detection, and 6DoF pose estimation.", "tags": ["OpenCV", "COLMAP", "PyTorch", "YOLO", "PnP"], "featured": true, "image": "", "imageAlt": "", "repository": "", "demo": "", "overview": "Combined OpenCV, COLMAP, and PyTorch to reconstruct scenes from multiple views and detect objects within a vision pipeline.", "contributions": ["Implemented YOLOv11 for object detection and PnP-based 6DoF pose estimation.", "Generated dense point clouds from stereo inputs.", "Validated the pipeline using custom datasets and open benchmarks."], "results": ""},
+    {"id": "stereo-slam", "title": "Stereo Visual SLAM with ORB-SLAM3", "category": "Localization & Mapping", "summary": "Stereo-camera localization and mapping, integrated with ROS 2 navigation and evaluated on KITTI and EuRoC datasets.", "tags": ["ORB-SLAM3", "ROS 2", "Stereo Vision", "KITTI", "EuRoC"], "featured": true, "image": "", "imageAlt": "", "repository": "", "demo": "", "overview": "Configured and optimized ORB-SLAM3 for real-time localization and mapping with stereo camera inputs.", "contributions": ["Worked with loop-closure detection and map optimization for trajectory estimation.", "Integrated SLAM outputs with ROS 2 navigation modules.", "Benchmarked performance on KITTI and EuRoC datasets."], "results": ""},
+    {"id": "vision-mlops", "title": "Robotics Vision Deployment on AWS", "category": "MLOps & Deployment", "summary": "An end-to-end workflow for training, deploying, and monitoring computer vision models for robotics applications.", "tags": ["AWS", "Docker", "MLOps", "CI/CD"], "featured": true, "image": "", "imageAlt": "", "repository": "", "demo": "", "overview": "Developed an MLOps pipeline for deploying computer vision models in robotics applications using AWS and Docker.", "contributions": ["Used AWS S3, EC2, and Lambda for training, deployment, and monitoring workflows.", "Containerized components with Docker.", "Integrated CI/CD workflows for reproducible deployment."], "results": ""}
+  ]
+}
